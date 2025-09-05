@@ -1,0 +1,10 @@
+prefix=/media/sf_share/debug_20250630_finish_socket_close_12_7num_20_4_ota/KVAS-V2G/utils/libmodbus/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: modbus
+Description: Modbus library
+Version: 3.1.11
+Libs: -L${libdir} -lmodbus
+Cflags: -I${includedir}/modbus
